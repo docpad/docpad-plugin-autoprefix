@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "coffee-script": "~1.6.3",
-    "projectz": "~0.3.11",
+    "projectz": "~0.3.13",
     "docpad": "6"
   },
   "main": "./out/autoprefix.plugin.js",
