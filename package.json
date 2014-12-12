@@ -53,7 +53,7 @@
     "autoprefixer": "~1.0.20140117"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.3",
+    "coffee-script": "~1.8.0",
     "projectz": "~0.3.17",
     "docpad": "6"
   },
