@@ -13,6 +13,11 @@
     "projectz": "^1.1.0",
     "docpad": "6"
   },
+  "scripts": {
+    "test": "node ./out/autoprefix.test.js",
+    "our:compile": "coffee -bco ./out ./src",
+    "our:meta:projectz": "projectz compile"
+  },
   "name": "docpad-plugin-autoprefix",
   "version": "2.0.0",
   "description": "Add browser/vendor prefixes to your stylesheets automatically, so you don't have to!",
@@ -73,9 +78,6 @@
     "url": "https://github.com/docpad/docpad-plugin-autoprefix.git"
   },
   "main": "./out/autoprefix.plugin.js",
-  "scripts": {
-    "test": "node ./out/autoprefix.test.js"
-  },
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"
   }
