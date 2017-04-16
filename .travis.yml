@@ -19,7 +19,7 @@ after_success:
 - eval "$(curl -s https://raw.githubusercontent.com/balupton/awesome-travis/master/scripts/node-publish.bash)"
 notifications:
   slack:
-    secure: JnbbHLSsY1vKbeGJ2aUTg2LYZbG/p52yAN82vVXjth3kTHDro7F1T0GfVmm1ZwiUJtcaDQTHm6Hzge420/e6bGckAcBVSf5VFaclqXstXPgHzyj4yjGdsmUAcic/g/ftbLYVzD25pTCgMgmq06XYyfPbOpuwl8wtW7pKIyTH+wg=
+    secure: A9VaNkwQlJVISoPqUZ9YqYLeB7NVC6Glcc07cX3muwY4tZRdt8ySUzZjpiRv8n38XPDMNRoR/LViTJjq9AKM22a07bVCxu4oeUbnLF8f3Q+bUU3xbm5CeIPGOgd+/ht/F/BW+BEI+v/xmXBAade5xIgASKrnll54unEGHIE0qpc=
   email:
     recipients:
-      secure: pv1RUUxDsUA/eSGbSbiSNFpzz3I8o6nOYNt74pPkNW5TtaizIYOVu3o+ELsqlx92W15ti3/ddm6KVPJgpB1lNJgZKbr9p41ipbQcsGBTteHbU8pfJ7HN1LjLDM8INDYKgC8MBs+kBYynVVk+PpxH/g+Rp08VjVKelVxDD4hAHNM=
+      secure: K/ek4aY9sMRHvIqLusuvZY5yXpcnSNbINMNBdH8y6HagkDonMUVTwBK9rncpSSx4p3PHZfNzucRa4GsKBeyopjaXkRnJoNzcAvUL25yN2vZErzanspbYyDrLYSozUrQOkB93+trDn1NTzaU9fbVoTvDIDeQM9E91nMNbEohf7wM=
