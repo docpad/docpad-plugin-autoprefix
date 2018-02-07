@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-autoprefix",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Add browser/vendor prefixes to your stylesheets automatically, so you don't have to!",
   "homepage": "https://github.com/docpad/docpad-plugin-autoprefix",
   "license": "MIT",
