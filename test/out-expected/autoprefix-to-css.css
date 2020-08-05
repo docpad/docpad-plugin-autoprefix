@@ -1,4 +1,12 @@
-a {
-    display: -ms-flexbox;
-    display: flex;
+::-moz-placeholder {
+	color: gray;
+}
+:-ms-input-placeholder {
+	color: gray;
+}
+::-ms-input-placeholder {
+	color: gray;
+}
+::placeholder {
+	color: gray;
 }

@@ -1,7 +1,7 @@
----
+/***
 autoprefix: true
----
+***/
 
-i {
-    display: flex;
+::placeholder {
+	color: gray;
 }
