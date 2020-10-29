@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-autoprefix",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Add browser/vendor prefixes to your stylesheets automatically, so you don't have to!",
   "homepage": "https://github.com/docpad/docpad-plugin-autoprefix",
   "license": "MIT",
@@ -71,7 +71,7 @@
   },
   "editions": [
     {
-      "description": "ESNext source code for Node.js 10 || 12 || 13 || 14 with Require for modules",
+      "description": "ESNext source code for Node.js 10 || 12 || 14 || 15 with Require for modules",
       "directory": "source",
       "entry": "index.js",
       "tags": [
@@ -81,27 +81,28 @@
         "require"
       ],
       "engines": {
-        "node": "10 || 12 || 13 || 14"
+        "node": "10 || 12 || 14 || 15"
       }
     }
   ],
   "type": "commonjs",
   "main": "source/index.js",
   "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "docpad-baseplugin": "^1.4.0"
+    "autoprefixer": "^10.0.1",
+    "docpad-baseplugin": "^1.4.0",
+    "postcss": "^8.1.4"
   },
   "devDependencies": {
-    "@bevry/update-contributors": "^1.17.0",
+    "@bevry/update-contributors": "^1.18.0",
     "docpad": "^6.83.2",
     "docpad-plugintester": "^1.7.3",
-    "eslint": "^7.8.1",
-    "eslint-config-bevry": "^3.22.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.12.1",
+    "eslint-config-bevry": "^3.23.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.1",
-    "projectz": "^2.16.0",
-    "valid-directory": "^3.4.0"
+    "prettier": "^2.1.2",
+    "projectz": "^2.17.0",
+    "valid-directory": "^3.5.0"
   },
   "peerDependencies": {
     "docpad": "^6.83.2"
